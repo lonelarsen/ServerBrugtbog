@@ -35,7 +35,6 @@ public class ConfigController {
             config.setSslPwd((String) jsonObject.get("SSL_PWD"));
             config.setAllowOrigin((String) jsonObject.get("ALLOW_ORIGIN"));
 
-
         } catch (Exception e) {
             e.printStackTrace();
 
@@ -44,4 +43,3 @@ public class ConfigController {
         return config;
     }
 }
-
